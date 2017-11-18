@@ -1,0 +1,42 @@
+.background    { background-image: url(https://www.growtopiagame.com/forums/attachment.php?attachmentid=106403&d=1451312598) ;
+				 background-repeat: repeat;
+				 background-size: 800px 650px;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background-image: url(https://media.giphy.com/media/x4Gj8Rqs1iW4w/giphy.gif);
+				 background-size: 50px 50px; }
+.wall          { background-image: url(http://i640.photobucket.com/albums/uu123/STU_WilliamHewitt/tileable_bricks_single.jpg); 
+				 background-size: 80px 80px; }
+.rock		   { background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWQ5Xgso_ZL3FP9_BhDewufA4u68SFL2Vu-z01mz17wIWyHgXDKQ); 
+				 background-size: 90px 90px; }
+.teleporter    { background-image: url(http://pixelartmaker.com/art/3a8f0f0861854fe.png);
+				 background-size: 27px 27px; }
+.slow   	   { background-image: url(http://www.royaldahlman.com/renewable/assets/Uploads/Royal-Dahlman-Tar-removal.jpg); 
+				 background-size: 90px 90px; }
+
+.actor  { position: absolute;  }
+.coin   { background: url(https://zippy.gfycat.com/DarlingAcceptableHapuku.gif);
+		  background-size: 20px 20px; }
+.player { background: #0000ff; }
+.golem  { background: url(http://piq.codeus.net/static/media/userpics/piq_84355_400x400.png);
+		  background-size: 40px 40px; }
+.flame  { background: url(https://gifimage.net/wp-content/uploads/2017/06/flame-gif-6.gif);
+		  background-size: 20px 20px; }
+.speed  { background: url(http://pixelartmaker.com/art/59f2f31c0f5c03a.png);
+		  background-size: 25px 25px; }
+
+.game {
+  overflow: hidden;
+  max-width: 700px;
+  max-height: 650px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+  box-shadow: -4px -7px 8px red, 4px -7px 8px red;
+}
+.won .player {
+  box-shadow: -4px -7px 8px gold, 4px -7px 8px gold;
+}
